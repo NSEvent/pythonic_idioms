@@ -48,3 +48,10 @@ else: # No break
 	res = -1
 	
 print(res)
+###################################################
+
+# Generator objects
+ls = (i**2 for i in range(11))
+for i in ls:
+	print(i)
+
