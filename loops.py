@@ -36,3 +36,15 @@ for num in sorted(numbers):
 # Traverse in key sorted order
 for num in sorted(numbers, key=len):
 	print(f'{num} (len={len(num)})')
+###################################################
+
+# For else
+res = None
+for i in range(5):
+	if (i == 5):
+		res = i
+		break
+else: # No break
+	res = -1
+	
+print(res)
